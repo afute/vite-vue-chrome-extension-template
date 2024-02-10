@@ -1,0 +1,56 @@
+@body-width: 400px;
+@body-height: 200px;
+@body-background: rgb(60, 63, 65);
+
+body {
+  position: relative;
+  width: @body-width;
+  height: @body-height;
+  background: @body-background;
+}
+
+.icons-box {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 50px;
+
+  top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: auto;
+
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.count {
+  width: 100px;
+  height: 30px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  outline: 0;
+  border: 0;
+
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+}
