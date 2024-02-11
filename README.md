@@ -1,11 +1,12 @@
 # chrome-extensions-template
 
-> 使用 Vite + Typescript + Less 的chrome插件模板
+> 使用 Vite + Vue + Typescript + Less 的chrome插件模板
 
 ## 参考
 
 - [源项目](https://github.com/NekitCorp/chrome-extension-svelte-typescript-boilerplate)
 - [Vite](https://vitejs.dev/)
+- [Vue](https://vuejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Less](https://lesscss.org/)
 - [CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools/blob/main/packages/vite-plugin/README.md)
