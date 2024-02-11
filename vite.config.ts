@@ -5,5 +5,12 @@ import manifest from "./src/manifest.json";
 
 
 export default defineConfig({
-    plugins: [vue(), crx({ manifest })]
+    plugins: [vue(), crx({ manifest })],
+    css: {
+        preprocessorOptions: {
+            less: {
+                javascriptEnabled: true
+            }
+        }
+    }
 });
