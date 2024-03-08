@@ -9,23 +9,33 @@
     "skipLibCheck": true,
 
     "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
     "allowImportingTsExtensions": true,
+    "experimentalDecorators": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
+    "removeComments": true,
 
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "src/**/*.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.js",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/**/*.json",
+    "src/**/*.html"
   ],
   "references": [
     {

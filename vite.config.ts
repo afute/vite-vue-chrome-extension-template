@@ -1,16 +1,16 @@
 import path from "path";
 
-import manifest from "./src/manifest.json";
-
-import vue from "@vitejs/plugin-vue";
+import vueJsx from "@vitejs/plugin-vue-jsx";
 import { crx } from "@crxjs/vite-plugin";
-
+import vue from "@vitejs/plugin-vue";
 import { defineConfig } from "vite";
 
+import manifest from "./src/manifest.json";
 
 export default defineConfig({
     plugins: [
         vue(),
+        vueJsx(),
         crx({ manifest })
     ],
     css: {
@@ -22,7 +22,8 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            "@": path.resolve(__dirname, "./src")
-        }
+            "@": path.resolve(__dirname, "./src"),
+            "*": path.resolve("")
+        },
     }
 });
