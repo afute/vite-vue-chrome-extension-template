@@ -1,20 +1,19 @@
 import { defineManifest } from "@crxjs/vite-plugin";
 
-export default defineManifest(async () => ({
+export default defineManifest({
     manifest_version: 3,
-    name: "Chrome Extension",
+    name: "chrome-extension-template",
     version: "0.0.1",
-    description: "Vite + Vue + Typescript + Less",
+    description: "chrome插件模板",
     icons: {
-        "16": "src/resource/favicon.png",
-        "32": "src/resource/favicon.png",
-        "48": "src/resource/favicon.png",
-        "128": "src/resource/favicon.png",
+        "16": "src/assets/favicon.png",
+        "32": "src/assets/favicon.png",
+        "48": "src/assets/favicon.png",
+        "128": "src/assets/favicon.png"
     },
     action: {
-        default_popup: "src/main.html",
-        default_title: "Chrome Extension",
-        default_icon: "src/resource/favicon.png"
-    },
-    permissions: [] as chrome.runtime.ManifestPermissions[],
-}));
+        default_title: "B·C·H",
+        default_popup: "index.html",
+        default_icon: "src/assets/favicon.png"
+    }
+});

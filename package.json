@@ -1,27 +1,29 @@
 {
-  "name": "chrome_extension",
-  "version": "0.0.1",
-  "description": "Vite + Vue + Typescript + Less",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "watch": "vite build --watch",
-    "build": "vite build"
-  },
-  "author": "afute",
-  "license": "ISC",
-  "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.23",
-    "@types/chrome": "^0.0.260",
-    "@types/node": "^20.11.24",
-    "@vitejs/plugin-vue": "^5.0.3",
-    "@vitejs/plugin-vue-jsx": "^3.1.0",
-    "less": "^4.2.0",
-    "pinia": "^2.1.7",
-    "typescript": "^5.2.2",
-    "vite": "^5.1.0",
-    "vue": "^3.4.15",
-    "vue-router": "^4.2.5",
-    "vue-tsc": "^1.8.27"
-  }
+    "name": "chrome-extension-template",
+    "version": "0.0.1",
+    "author": "afute",
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "watch": "vite build --watch"
+    },
+    "devDependencies": {
+        "@crxjs/vite-plugin": "^2.0.0-beta.23",
+        "@types/chrome": "^0.0.263",
+        "@types/node": "^20.11.28",
+        "@vitejs/plugin-vue": "^5.0.3",
+        "@vitejs/plugin-vue-jsx": "^3.1.0",
+        "@vueuse/core": "^10.9.0",
+        "pinia": "^2.1.7",
+        "sass": "^1.72.0",
+        "terser": "^5.29.2",
+        "typescript": "^5.4.2",
+        "vite": "^5.1.0",
+        "vite-plugin-svg-icons": "^2.0.1",
+        "vue": "^3.4.21",
+        "vue-draggable-plus": "^0.3.5",
+        "vue-lazyload": "^3.0.0",
+        "vue-router": "^4.3.0",
+        "vue-tsc": "^1.8.27"
+    }
 }

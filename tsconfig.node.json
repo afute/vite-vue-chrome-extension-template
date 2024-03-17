@@ -6,9 +6,17 @@
         "moduleResolution": "bundler",
         "allowSyntheticDefaultImports": true,
         "strict": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
     },
     "include": [
-        "./vite.config.ts",
-        "./src/manifest.json.ts"
+        "index.html",
+        "vite-env.d.ts",
+        "./vite.config.ts"
     ]
 }
