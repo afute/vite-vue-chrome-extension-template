@@ -13,6 +13,7 @@
         "@types/node": "^20.11.28",
         "@vitejs/plugin-vue": "^5.0.3",
         "@vitejs/plugin-vue-jsx": "^3.1.0",
+        "@vueuse/components": "^10.9.0",
         "@vueuse/core": "^10.9.0",
         "pinia": "^2.1.7",
         "sass": "^1.72.0",
