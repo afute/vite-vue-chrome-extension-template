@@ -9,7 +9,6 @@
     },
     "include": [
         "index.html",
-        "vite-env.d.ts",
         "vite.config.ts",
         "./src/manifest.json.ts"
     ]
