@@ -6,14 +6,14 @@ export default defineManifest({
     version: "0.0.1",
     description: "chrome插件模板",
     icons: {
-        "16": "src/assets/favicon.png",
-        "32": "src/assets/favicon.png",
-        "48": "src/assets/favicon.png",
-        "128": "src/assets/favicon.png"
+        "16": "public/favicon.png",
+        "32": "public/favicon.png",
+        "48": "public/favicon.png",
+        "128": "public/favicon.png"
     },
     action: {
         default_title: "B·C·H",
         default_popup: "index.html",
-        default_icon: "src/assets/favicon.png"
+        default_icon: "public/favicon.png"
     }
 });
