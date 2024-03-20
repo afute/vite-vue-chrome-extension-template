@@ -2,9 +2,9 @@ import { defineManifest } from "@crxjs/vite-plugin";
 
 export default defineManifest({
     manifest_version: 3,
-    name: "chrome-extension-template",
+    name: "chrome extension template",
     version: "0.0.1",
-    description: "chrome插件模板",
+    description: "chrome extension template",
     icons: {
         "16": "public/favicon.png",
         "32": "public/favicon.png",

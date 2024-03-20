@@ -1,6 +1,6 @@
-# chrome-extensions-template
+# chrome-extension-template
 
-> chrome extensions template
+> chrome extension template
 > > vite vue typescript scss
 
 ## Build
@@ -14,10 +14,3 @@ npm install
 
 npm run build
 ```
-
-## Load to browser
-
-![0.Example](example/example-0.jpg)
-![1.Example](example/example-1.jpg)
-![2.Example](example/example-2.jpg)
-![3.Example](example/example-3.jpg)
