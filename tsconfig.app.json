@@ -1,10 +1,13 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "lib": [
-            "ESNext"
-        ],
+        "useDefineForClassFields": true,
         "module": "ESNext",
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
         "skipLibCheck": true,
         /* Bundler mode */
         "moduleResolution": "bundler",
@@ -12,18 +15,29 @@
         "isolatedModules": true,
         "moduleDetection": "force",
         "noEmit": true,
+        "jsx": "preserve",
         /* Linting */
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
-        "composite": true,
-        "allowSyntheticDefaultImports": true
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
     },
     "include": [
-        "popup.html",
-        "options.html",
-        "vite.config.ts",
-        "manifest.json.ts"
+        "vite-env.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.js",
+        "src/**/*.vue",
+        "src/**/*.json"
     ]
 }

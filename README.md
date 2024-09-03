@@ -1,16 +1,15 @@
 # chrome-extension-template
 
-> chrome extension template
-> > vite vue typescript scss
+> Simple chrome extension implemented using vue + vite + typescript + sass
 
 ## Build
 
 ```bash
-git clone https://github.com/afute/chrome-extension-template
+git clone https://github.com/afute/vite-vue-chrome-extension-template
 
-cd chrome-extension-template
+cd vite-vue-chrome-extension-template
 
 npm install
 
-npm run build
+npm run build # or npm run watch
 ```
